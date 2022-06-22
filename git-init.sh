@@ -47,6 +47,7 @@ git add .
 git commit -m "setup: add pre-commit file"
 
 echo "Finished repository initialization"
+git push
 
 echo "Opening repository in VsCode"
 code .
