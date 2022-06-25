@@ -34,21 +34,6 @@ if [ -f "./README.md" ]; then
   echo "Pushed to github"
 fi
 
-echo "- repo: https://github.com/pre-commit/mirrors-prettier
-  rev: \"\" 
-  hooks:
-    - id: prettier" > .pre-commit-config.yaml
-
-echo "Creating pre-comit file"
-git add .
-echo "Creating commit to precommit file"
-git commit -m "setup: add pre-commit file"
-git add .
-git commit -m "setup: add pre-commit file"
-
-echo "Finished repository initialization"
-git push
-
 echo "Opening repository in VsCode"
 code .
 
